@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import {Navbar} from "react-bootstrap";
+import {Navbar, NavbarBrand} from "reactstrap";
 
 class Header extends Component {
     render() {
         return (
-            <Navbar bg="dark" variant="dark">
-                <Navbar.Brand>Will It Connect?</Navbar.Brand>
+            <Navbar color="dark" className="navbar-dark">
+                <NavbarBrand className="navbar-light">Will It Connect?</NavbarBrand>
             </Navbar>
         );
     }
